@@ -58,7 +58,7 @@ function MoviesTabNavigator() {
         component={SearchStackNavigator} 
         options={{tabBarIcon: () => {
           return <Image source= {require('../Images/ic_search.png')}
-            style = {styles.icon}/>
+            style = {styles.icon}/> 
         }}}
       />
       <Tab.Screen name="Favorites"
